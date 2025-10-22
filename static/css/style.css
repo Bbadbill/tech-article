@@ -1,0 +1,42 @@
+:root {
+    --black: #000;
+    --green: rgb(6, 146, 6);
+    --white: #ffff;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style: none;
+}
+
+header, footer {
+    background-color: var(--black);
+    color: var(--white);
+    padding: 15px 10px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+nav ul {
+    display: flex;
+    margin: auto;
+    justify-content: end;
+    gap: 50px;
+
+}
+nav ul li {
+    gap: 50px;
+}
+
+/* ffooter section */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+footer ul{
+    margin-left: 15px;
+}
