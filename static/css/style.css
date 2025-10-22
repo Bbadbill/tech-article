@@ -10,6 +10,11 @@
 ul {
     list-style: none;
 }
+img {
+    width: 250px;
+    height: auto;
+}
+/* header section */
 
 header, footer {
     background-color: var(--black);
@@ -29,6 +34,20 @@ nav ul {
 }
 nav ul li {
     gap: 50px;
+}
+
+/* main section */
+main {
+    margin: 20px 0;
+    padding: 20px 10px;
+}
+.blog-list{
+    display: grid;
+    grid-template-columns:33.33% 33.33% 33.33% ;
+    gap: 15px;
+}
+.blog-item img {
+    
 }
 
 /* ffooter section */
